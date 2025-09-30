@@ -1,0 +1,6 @@
+
+class Space
+{
+	public:
+	protected:
+};
