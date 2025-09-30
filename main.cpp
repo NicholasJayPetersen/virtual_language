@@ -4,13 +4,23 @@
 
 int main(int argc, char** argv) {
 	
-	au = 1;
-	parsec = 1.5
-	lightyear = 2.4958;
-	holo = "string";
+	au integer = 1;
+	integer = 2;
+	parsec aFloat = 1.5;
+	aFloat = 3.5;
+	megaparsec aDouble = 2.4958;
+	aDouble = 3.234455;
+	singularity aDecimal = 2.23849028340298340285;
+	aDecimal = 5343456547.3245345678876543432;
+	glyph character = 'a';
+	character = 'b';
+	
+	//holocron words("string");
+	holocron words = "string";
+	words = "new string"
 	
 	push:"this is output";
-	holo = pull:"this is input";
+	holocron = pull:"this is input";
 	
 	
 	return 0;
