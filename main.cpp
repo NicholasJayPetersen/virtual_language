@@ -13,14 +13,17 @@ int main(int argc, char** argv) {
 	singularity aDecimal = 2.23849028340298340285;
 	aDecimal = 5343456547.3245345678876543432;
 	glyph character = 'a';
-	character = 'b';
+	character = 'b';	
 	
-	//holocron words("string");
 	holocron words = "string";
-	words = "new string"
+	words = "I am your father";
+
+	push<<"May the force be with you.";
 	
-	push:"this is output";
-	holocron = pull:"this is input";
+	//overload << to work with holocron next.
+//	push<<words;
+//	push:"this is output";
+//	holocron = pull:"this is input";
 	
 	
 	return 0;

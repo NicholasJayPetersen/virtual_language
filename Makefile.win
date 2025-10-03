@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o Space.o
-LINKOBJ  = main.o Space.o
+OBJ      = main.o Space.o au.o parsec.o megaparsec.o singularity.o glyph.o holocron.o push.o
+LINKOBJ  = main.o Space.o au.o parsec.o megaparsec.o singularity.o glyph.o holocron.o push.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -std=c++11
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -29,3 +29,24 @@ main.o: main.cpp
 
 Space.o: Space.cpp
 	$(CPP) -c Space.cpp -o Space.o $(CXXFLAGS)
+
+au.o: au.cpp
+	$(CPP) -c au.cpp -o au.o $(CXXFLAGS)
+
+parsec.o: parsec.cpp
+	$(CPP) -c parsec.cpp -o parsec.o $(CXXFLAGS)
+
+megaparsec.o: megaparsec.cpp
+	$(CPP) -c megaparsec.cpp -o megaparsec.o $(CXXFLAGS)
+
+singularity.o: singularity.cpp
+	$(CPP) -c singularity.cpp -o singularity.o $(CXXFLAGS)
+
+glyph.o: glyph.cpp
+	$(CPP) -c glyph.cpp -o glyph.o $(CXXFLAGS)
+
+holocron.o: holocron.cpp
+	$(CPP) -c holocron.cpp -o holocron.o $(CXXFLAGS)
+
+push.o: push.cpp
+	$(CPP) -c push.cpp -o push.o $(CXXFLAGS)
