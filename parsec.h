@@ -7,6 +7,8 @@ class parsec{
 	public:
 		parsec(float n);
 		parsec* operator=(float x);
+		parsec* operator+(float x);
+		parsec* operator+=(parsec x);
 };
 
 #endif

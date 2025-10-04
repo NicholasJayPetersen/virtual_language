@@ -26,15 +26,23 @@ int main(int argc, char** argv) {
 	push | daddyIssues;
 	
 	//next step: overload arithemetic operators for each type
-	aFloat += 3.5;
+	au number = 1; //set to 1
+	push | force | number;
+	number += 1; //setst to 2
+	push | force | number;
+	number = number + 1; //sets to 3
+	push | force | number;
+	//integer = integer + 1;
 	
-	integer += 1;
+	//aFloat = aFloat + 2.4;
+	//aFloat += 3.5;
+	//push | aFloat;
 	
-	aDouble += 4.3245;
-	
-	aDecimal += 2.435234;
-	
-	daddyIssues += " - Darth Vader";
-	
+//	aDouble += 4.3245;
+//	
+//	aDecimal += 2.435234;
+//	
+//	daddyIssues += " - Darth Vader";
+//	
 	return 0;
 }
