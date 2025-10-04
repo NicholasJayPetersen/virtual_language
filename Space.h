@@ -8,6 +8,7 @@
 #include "glyph.h"
 #include "holocron.h"
 #include "push.h"
+#include "pull.h"
 
 
 class Space{

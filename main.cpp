@@ -15,15 +15,16 @@ int main(int argc, char** argv) {
 	glyph character = 'a';
 	character = 'b';	
 	
-	holocron words = "string";
-	words = "I am your father";
+	holocron daddyIssues = "string";
+	daddyIssues = "I am your father";
 
-	push<<"May the force be with you.";
-	
-	//overload << to work with holocron next.
-//	push<<words;
-//	push:"this is output";
-//	holocron = pull:"this is input";
+	push | "May the force be with you.";
+	push | slice;
+	push | daddyIssues | slice;
+
+	int n;
+	pull | daddyIssues;
+	push | daddyIssues;
 	
 	
 	return 0;
