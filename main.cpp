@@ -19,13 +19,22 @@ int main(int argc, char** argv) {
 	daddyIssues = "I am your father";
 
 	push | "May the force be with you.";
-	push | slice;
-	push | daddyIssues | slice;
+	push | force;
+	push | daddyIssues | force;
 
-	int n;
 	pull | daddyIssues;
 	push | daddyIssues;
 	
+	//next step: overload arithemetic operators for each type
+	aFloat += 3.5;
+	
+	integer += 1;
+	
+	aDouble += 4.3245;
+	
+	aDecimal += 2.435234;
+	
+	daddyIssues += " - Darth Vader";
 	
 	return 0;
 }
