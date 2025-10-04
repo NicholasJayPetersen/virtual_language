@@ -1,6 +1,6 @@
 [Editors]
-Order=0,3,4,1,15,16
-Focused=0
+Order=0,3,4,1,15,16,2,12,11,14,13,8,7,6,5,18,10,9
+Focused=9
 [Editor_0]
 CursorCol=1
 CursorRow=25
@@ -67,8 +67,8 @@ CursorRow=4
 TopLine=1
 LeftChar=1
 [Editor_14]
-CursorCol=36
-CursorRow=13
+CursorCol=67
+CursorRow=4
 TopLine=1
 LeftChar=1
 [Editor_13]
